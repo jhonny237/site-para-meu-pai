@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    margin: 2em;
+    text-decoration: none;
+    font-size: 1.3em;
+    color:#FDC026;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+nav :hover{
+    color: #382419;
+    text-decoration: overline;
+}
+
+.cervejas{
+    height: 50em;
+}
+
+.cerveja__titulo{
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cervejas .container{
+    display: flex;
+    align-items: s;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 10em;
+    height: 0;
+
+    
+}
+
+.estilo{
+    box-sizing: border-box;
+    width: 27em;
+    height: 27em;
+    border: 5px solid #382419;
+    margin-top: 15em;
+    padding-top: 2em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.5em;
+    --webkit-box-shadow: 26px 31px 0px -13px rgba(253,192,38,1);
+    -moz-box-shadow: 26px 31px 0px -13px rgba(253,192,38,1);
+    box-shadow: 26px 31px 0px -13px rgba(253,192,38,1);
+    will-change: transform;
+    transition: transform 650ms;
+}   
+
+
+.cervejas section:hover{
+    transform: translateY(-10%);
+    
+}
+
+.cervejas section:hover{
+    color: white;
+    background-color: #382419;
+    transition:transform 0.8s;
+    
+}
+
+
+.sobreNos{
+    height: 50em;
+    background-color: #FDC026;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sobreNos img{
+    margin-top: 6em;
+}
